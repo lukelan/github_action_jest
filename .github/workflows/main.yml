@@ -3,7 +3,7 @@ name: Unit Tests
 on:
   push:
     branches:
-      - main,test_merge
+      - '*'
   pull_request:
     branches: [main,test_merge]
 
